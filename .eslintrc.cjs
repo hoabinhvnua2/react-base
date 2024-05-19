@@ -11,7 +11,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-    quotes: 'warn',
+    quotes: [2, 'single'],
     semi: 'error',
     'no-unused-vars': 'error'
   }
